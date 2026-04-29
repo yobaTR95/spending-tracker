@@ -22,7 +22,7 @@ interface DashboardProps {
   onLogout: () => void;
 }
 
-const COLORS = ['#4f46e5', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'];
+const COLORS = ['#facc15', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'];
 
 const Dashboard: React.FC<DashboardProps> = ({ token, user, onLogout }) => {
   const [expenses, setExpenses] = useState<Expense[]>([]);
